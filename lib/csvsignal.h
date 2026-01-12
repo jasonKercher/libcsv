@@ -14,7 +14,7 @@ void init_sig();
  * This function simply removes any temporary files
  * in the event of an error or SIGxxx detected.
  */
-void cleanexit();
+void cleanexit(int signo);
 
 /**
  * Add temp file
